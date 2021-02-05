@@ -25,7 +25,8 @@ else:
 #################7#################
 my_str="qrty"
 if len(my_str)<5:
-    print(my_str,my_str[::-1])
+    print("{}{}".format(my_str,my_str[::-1]))
 else:
     print(my_str)
+    
 
